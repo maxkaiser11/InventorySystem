@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MKInventory.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"MKInventory.cpp.obj"
+		]
+	}
+}
