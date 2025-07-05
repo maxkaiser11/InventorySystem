@@ -7,10 +7,5 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/Module.RiderDebuggerSupport.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/BlueprintStackGetter.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/DebugLogger.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/RiderDebuggerSupport.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/UnrealFunctions.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/WideStringWrapper.cpp.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/Default.rc2.res"
 /OUT:"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/RiderDebuggerSupport/UnrealEditor-RiderDebuggerSupport-Win64-DebugGame.lib"

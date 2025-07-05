@@ -17,6 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UInv_HUDWidget ***********************************************************
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_HUD_Inv_HUDWidget_h_15_CALLBACK_WRAPPERS
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_HUDWidget_NoRegister();
 
 #define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_HUD_Inv_HUDWidget_h_15_INCLASS_NO_PURE_DECLS \
@@ -46,6 +47,7 @@ public: \
 #define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_HUD_Inv_HUDWidget_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_HUD_Inv_HUDWidget_h_15_CALLBACK_WRAPPERS \
 	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_HUD_Inv_HUDWidget_h_15_INCLASS_NO_PURE_DECLS \
 	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_HUD_Inv_HUDWidget_h_15_ENHANCED_CONSTRUCTORS \
 private: \

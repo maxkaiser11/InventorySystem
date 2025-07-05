@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\mkinventory.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedev\\ue5projects\\inventorysystem\\intermediate\\build\\win64\\x64\\inventorysystemeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\mkinventory\\definitions.mkinventory.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
