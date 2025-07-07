@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\private\\interaction\\inv_highlightablestaticmesh.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedev\\ue5projects\\inventorysystem\\intermediate\\build\\win64\\x64\\inventorysystemeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\mkinventory\\definitions.mkinventory.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\interaction\\inv_highlightablestaticmesh.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\interaction\\inv_highlightable.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_highlightable.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_highlightablestaticmesh.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

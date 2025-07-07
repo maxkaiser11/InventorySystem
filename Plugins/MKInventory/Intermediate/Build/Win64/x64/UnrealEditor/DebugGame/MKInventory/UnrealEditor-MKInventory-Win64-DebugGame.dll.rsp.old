@@ -38,9 +38,9 @@
 /NOEXP
 "C:/GameDev/UE5Projects/InventorySystem/Intermediate/Build/Win64/x64/InventorySystemEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.ValExpApi.Cpp20.h.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Module.MKInventory.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Inv_ItemComponent.cpp.obj"
+"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Inv_Highlightable.cpp.obj"
+"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Inv_HighlightableStaticMesh.cpp.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Inv_PlayerController.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Inv_HUDWidget.cpp.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/MKInventory/Default.rc2.res"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"

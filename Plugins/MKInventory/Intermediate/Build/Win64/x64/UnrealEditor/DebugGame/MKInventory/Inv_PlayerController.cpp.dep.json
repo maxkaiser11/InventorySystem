@@ -34,6 +34,8 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedplayerinput.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\interaction\\inv_highlightable.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_highlightable.generated.h",
             "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\items\\components\\inv_itemcomponent.h",
             "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_itemcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
