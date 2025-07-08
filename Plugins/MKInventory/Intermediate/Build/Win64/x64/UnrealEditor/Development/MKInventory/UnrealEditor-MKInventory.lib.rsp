@@ -8,7 +8,5 @@
 /NODEFAULTLIB
 "C:/GameDev/UE5Projects/InventorySystem/Intermediate/Build/Win64/x64/InventorySystemEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/MKInventory/Module.MKInventory.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/MKInventory/MKInventory.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/MKInventory/Inv_PlayerController.cpp.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/MKInventory/Default.rc2.res"
 /OUT:"C:/GameDev/UE5Projects/InventorySystem/Plugins/MKInventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/MKInventory/UnrealEditor-MKInventory.lib"

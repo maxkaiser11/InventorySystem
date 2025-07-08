@@ -2,8 +2,11 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MKInventory.cpp.obj": [
+			"Inv_PlayerController.gen.cpp.obj",
+			"MKInventory.init.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
-			"MKInventory.cpp.obj"
+			"MKInventory.cpp.obj",
+			"Inv_PlayerController.cpp.obj"
 		]
 	}
 }

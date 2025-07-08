@@ -7,6 +7,5 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Module.RiderLC.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/RiderLC.cpp.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Default.rc2.res"
 /OUT:"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/UnrealEditor-RiderLC.lib"

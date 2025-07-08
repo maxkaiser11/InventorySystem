@@ -7,7 +7,5 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/BlueprintProvider.cpp.obj"
-"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/RiderBlueprint.cpp.obj"
 "C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res"
 /OUT:"C:/GameDev/UE5Projects/InventorySystem/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.lib"
