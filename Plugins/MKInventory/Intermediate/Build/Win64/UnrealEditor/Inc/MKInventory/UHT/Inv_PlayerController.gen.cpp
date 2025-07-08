@@ -28,6 +28,7 @@ struct Z_Construct_UFunction_AInv_PlayerController_ToggleInventory_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Inventory" },
 		{ "ModuleRelativePath", "Public/Player/Inv_PlayerController.h" },
 	};
 #endif // WITH_METADATA
@@ -138,7 +139,7 @@ struct Z_Construct_UClass_AInv_PlayerController_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AInv_PlayerController_ToggleInventory, "ToggleInventory" }, // 2485097890
+		{ &Z_Construct_UFunction_AInv_PlayerController_ToggleInventory, "ToggleInventory" }, // 1917325643
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -201,10 +202,10 @@ AInv_PlayerController::~AInv_PlayerController() {}
 struct Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Player_Inv_PlayerController_h__Script_MKInventory_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInv_PlayerController, AInv_PlayerController::StaticClass, TEXT("AInv_PlayerController"), &Z_Registration_Info_UClass_AInv_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInv_PlayerController), 850771275U) },
+		{ Z_Construct_UClass_AInv_PlayerController, AInv_PlayerController::StaticClass, TEXT("AInv_PlayerController"), &Z_Registration_Info_UClass_AInv_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInv_PlayerController), 1793300404U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Player_Inv_PlayerController_h__Script_MKInventory_2685606863(TEXT("/Script/MKInventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Player_Inv_PlayerController_h__Script_MKInventory_307875457(TEXT("/Script/MKInventory"),
 	Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Player_Inv_PlayerController_h__Script_MKInventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Player_Inv_PlayerController_h__Script_MKInventory_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
