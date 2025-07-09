@@ -2,24 +2,28 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MKInventory.cpp.obj": [
+			"Inv_GridTypes.gen.cpp.obj",
 			"Inv_Highlightable.gen.cpp.obj",
 			"Inv_HighlightableStaticMesh.gen.cpp.obj",
 			"Inv_HUDWidget.gen.cpp.obj",
+			"Inv_InventoryBase.gen.cpp.obj",
+			"Inv_InventoryComponent.gen.cpp.obj",
+			"Inv_InventoryGrid.gen.cpp.obj",
 			"Inv_ItemComponent.gen.cpp.obj",
 			"Inv_PlayerController.gen.cpp.obj",
+			"Inv_SpatialInventory.gen.cpp.obj",
+			"MKInventory.init.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"Inv_Highlightable.cpp.obj",
 			"Inv_HighlightableStaticMesh.cpp.obj",
+			"Inv_InventoryComponent.cpp.obj",
 			"Inv_ItemComponent.cpp.obj",
 			"MKInventory.cpp.obj",
-			"Inv_HUDWidget.cpp.obj",
-			"Inv_InventoryBase.gen.cpp.obj",
-			"Inv_InventoryComponent.gen.cpp.obj",
-			"Inv_SpatialInventory.gen.cpp.obj",
-			"MKInventory.init.gen.cpp.obj",
-			"Inv_InventoryComponent.cpp.obj",
 			"Inv_PlayerController.cpp.obj",
+			"Inv_HUDWidget.cpp.obj",
 			"Inv_InventoryBase.cpp.obj",
+			"Inv_GridTypes.cpp.obj",
+			"Inv_InventoryGrid.cpp.obj",
 			"Inv_SpatialInventory.cpp.obj"
 		]
 	}

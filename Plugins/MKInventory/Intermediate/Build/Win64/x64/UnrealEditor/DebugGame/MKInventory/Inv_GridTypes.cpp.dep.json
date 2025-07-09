@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\private\\types\\inv_gridtypes.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedev\\ue5projects\\inventorysystem\\intermediate\\build\\win64\\x64\\inventorysystemeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\mkinventory\\definitions.mkinventory.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

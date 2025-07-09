@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UInv_SpatialInventory ****************************************************
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_SpatialInventory_NoRegister();
 
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInv_SpatialInventory(); \
 	friend struct Z_Construct_UClass_UInv_SpatialInventory_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UInv_SpatialInventory)
 
 
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInv_SpatialInventory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UInv_SpatialInventory();
 
 
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_12_PROLOG
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_15_GENERATED_BODY \
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_14_PROLOG
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_15_INCLASS_NO_PURE_DECLS \
-	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_15_ENHANCED_CONSTRUCTORS \
+	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_17_INCLASS_NO_PURE_DECLS \
+	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_Widgets_Inventory_Spatial_Inv_SpatialInventory_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
