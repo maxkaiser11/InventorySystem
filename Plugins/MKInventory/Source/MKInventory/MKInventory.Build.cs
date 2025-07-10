@@ -10,6 +10,8 @@ public class MKInventory : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
+				"Core",
+				"NetCore"
 				// ... add public include paths required here ...
 			}
 			);
