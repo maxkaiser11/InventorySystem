@@ -78,7 +78,22 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenepreanimatedstate.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\userwidget.generated.h",
             "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_inventorybase.generated.h",
-            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_spatialinventory.generated.h"
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_spatialinventory.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\components\\button.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\components\\contentwidget.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\components\\panelwidget.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\components\\panelslot.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\panelslot.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\panelwidget.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\contentwidget.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\button.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\components\\widgetswitcher.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\swidgetswitcher.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widgetswitcher.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\widgets\\inventory\\spatial\\inv_inventorygrid.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\types\\inv_gridtypes.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_gridtypes.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_inventorygrid.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
