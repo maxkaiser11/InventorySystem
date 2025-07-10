@@ -10,8 +10,6 @@ public class MKInventory : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"Core",
-				"NetCore"
 				// ... add public include paths required here ...
 			}
 			);
@@ -28,6 +26,7 @@ public class MKInventory : ModuleRules
 			new string[]
 			{
 				"Core",
+				"NetCore"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

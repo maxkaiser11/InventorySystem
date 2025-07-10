@@ -17,8 +17,54 @@ ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryBase_NoRegister();
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryComponent();
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryComponent_NoRegister();
+MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryItem_NoRegister();
+MKINVENTORY_API UFunction* Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature();
 UPackage* Z_Construct_UPackage__Script_MKInventory();
 // ********** End Cross Module References **********************************************************
+
+// ********** Begin Delegate FInventoryItemChange **************************************************
+struct Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics
+{
+	struct _Script_MKInventory_eventInventoryItemChange_Parms
+	{
+		UInv_InventoryItem* Item;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/InventoryManagement/Components/Inv_InventoryComponent.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Item;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_MKInventory_eventInventoryItemChange_Parms, Item), Z_Construct_UClass_UInv_InventoryItem_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::NewProp_Item,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_MKInventory, nullptr, "InventoryItemChange__DelegateSignature", Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::_Script_MKInventory_eventInventoryItemChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::_Script_MKInventory_eventInventoryItemChange_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FInventoryItemChange_DelegateWrapper(const FMulticastScriptDelegate& InventoryItemChange, UInv_InventoryItem* Item)
+{
+	struct _Script_MKInventory_eventInventoryItemChange_Parms
+	{
+		UInv_InventoryItem* Item;
+	};
+	_Script_MKInventory_eventInventoryItemChange_Parms Parms;
+	Parms.Item=Item;
+	InventoryItemChange.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FInventoryItemChange ****************************************************
 
 // ********** Begin Class UInv_InventoryComponent **************************************************
 void UInv_InventoryComponent::StaticRegisterNativesUInv_InventoryComponent()
