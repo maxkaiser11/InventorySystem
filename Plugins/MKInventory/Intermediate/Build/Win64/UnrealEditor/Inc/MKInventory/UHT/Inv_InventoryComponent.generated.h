@@ -17,6 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 class UInv_InventoryItem;
+class UInv_ItemComponent;
 
 // ********** Begin Delegate FInventoryItemChange **************************************************
 #define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_13_DELEGATE \
@@ -25,10 +26,21 @@ MKINVENTORY_API void FInventoryItemChange_DelegateWrapper(const FMulticastScript
 
 // ********** End Delegate FInventoryItemChange ****************************************************
 
+// ********** Begin Delegate FNoRoomInInventory ****************************************************
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_14_DELEGATE \
+MKINVENTORY_API void FNoRoomInInventory_DelegateWrapper(const FMulticastScriptDelegate& NoRoomInInventory);
+
+
+// ********** End Delegate FNoRoomInInventory ******************************************************
+
 // ********** Begin Class UInv_InventoryComponent **************************************************
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execTryAddItem);
+
+
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryComponent_NoRegister();
 
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInv_InventoryComponent(); \
 	friend struct Z_Construct_UClass_UInv_InventoryComponent_Statics; \
@@ -39,7 +51,7 @@ public: \
 	DECLARE_SERIALIZER(UInv_InventoryComponent)
 
 
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UInv_InventoryComponent(UInv_InventoryComponent&&) = delete; \
 	UInv_InventoryComponent(const UInv_InventoryComponent&) = delete; \
@@ -49,12 +61,13 @@ public: \
 	NO_API virtual ~UInv_InventoryComponent();
 
 
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_15_PROLOG
-#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_18_GENERATED_BODY \
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_16_PROLOG
+#define FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_18_INCLASS_NO_PURE_DECLS \
-	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_18_ENHANCED_CONSTRUCTORS \
+	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_INCLASS_NO_PURE_DECLS \
+	FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

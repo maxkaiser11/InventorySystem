@@ -18,7 +18,9 @@ MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryBase_NoRegister();
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryComponent();
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryComponent_NoRegister();
 MKINVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryItem_NoRegister();
+MKINVENTORY_API UClass* Z_Construct_UClass_UInv_ItemComponent_NoRegister();
 MKINVENTORY_API UFunction* Z_Construct_UDelegateFunction_MKInventory_InventoryItemChange__DelegateSignature();
+MKINVENTORY_API UFunction* Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature();
 UPackage* Z_Construct_UPackage__Script_MKInventory();
 // ********** End Cross Module References **********************************************************
 
@@ -66,9 +68,86 @@ void FInventoryItemChange_DelegateWrapper(const FMulticastScriptDelegate& Invent
 }
 // ********** End Delegate FInventoryItemChange ****************************************************
 
+// ********** Begin Delegate FNoRoomInInventory ****************************************************
+struct Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/InventoryManagement/Components/Inv_InventoryComponent.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_MKInventory, nullptr, "NoRoomInInventory__DelegateSignature", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_MKInventory_NoRoomInInventory__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FNoRoomInInventory_DelegateWrapper(const FMulticastScriptDelegate& NoRoomInInventory)
+{
+	NoRoomInInventory.ProcessMulticastDelegate<UObject>(NULL);
+}
+// ********** End Delegate FNoRoomInInventory ******************************************************
+
+// ********** Begin Class UInv_InventoryComponent Function TryAddItem ******************************
+struct Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics
+{
+	struct Inv_InventoryComponent_eventTryAddItem_Parms
+	{
+		UInv_ItemComponent* ItemComponent;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "Public/InventoryManagement/Components/Inv_InventoryComponent.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ItemComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ItemComponent;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::NewProp_ItemComponent = { "ItemComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Inv_InventoryComponent_eventTryAddItem_Parms, ItemComponent), Z_Construct_UClass_UInv_ItemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemComponent_MetaData), NewProp_ItemComponent_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::NewProp_ItemComponent,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UInv_InventoryComponent, nullptr, "TryAddItem", Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::Inv_InventoryComponent_eventTryAddItem_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020405, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::Inv_InventoryComponent_eventTryAddItem_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInv_InventoryComponent::execTryAddItem)
+{
+	P_GET_OBJECT(UInv_ItemComponent,Z_Param_ItemComponent);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->TryAddItem(Z_Param_ItemComponent);
+	P_NATIVE_END;
+}
+// ********** End Class UInv_InventoryComponent Function TryAddItem ********************************
+
 // ********** Begin Class UInv_InventoryComponent **************************************************
 void UInv_InventoryComponent::StaticRegisterNativesUInv_InventoryComponent()
 {
+	UClass* Class = UInv_InventoryComponent::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "TryAddItem", &UInv_InventoryComponent::execTryAddItem },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 FClassRegistrationInfo Z_Registration_Info_UClass_UInv_InventoryComponent;
 UClass* UInv_InventoryComponent::GetPrivateStaticClass()
@@ -123,6 +202,10 @@ struct Z_Construct_UClass_UInv_InventoryComponent_Statics
 	static const UECodeGen_Private::FClassPropertyParams NewProp_InventoryMenuClass;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UInv_InventoryComponent_TryAddItem, "TryAddItem" }, // 3241322199
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UInv_InventoryComponent>::IsAbstract,
 	};
@@ -145,11 +228,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UInv_InventoryComponent
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_UInv_InventoryComponent_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_UInv_InventoryComponent_Statics::PropPointers),
 	0,
 	0x00B000A4u,
@@ -171,10 +254,10 @@ UInv_InventoryComponent::~UInv_InventoryComponent() {}
 struct Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h__Script_MKInventory_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInv_InventoryComponent, UInv_InventoryComponent::StaticClass, TEXT("UInv_InventoryComponent"), &Z_Registration_Info_UClass_UInv_InventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryComponent), 3948337883U) },
+		{ Z_Construct_UClass_UInv_InventoryComponent, UInv_InventoryComponent::StaticClass, TEXT("UInv_InventoryComponent"), &Z_Registration_Info_UClass_UInv_InventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryComponent), 3507305744U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h__Script_MKInventory_63757446(TEXT("/Script/MKInventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h__Script_MKInventory_949673778(TEXT("/Script/MKInventory"),
 	Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h__Script_MKInventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameDev_UE5Projects_InventorySystem_Plugins_MKInventory_Source_MKInventory_Public_InventoryManagement_Components_Inv_InventoryComponent_h__Script_MKInventory_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

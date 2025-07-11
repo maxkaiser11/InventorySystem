@@ -76,7 +76,13 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\relativeptr.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenepreanimatedstate.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\userwidget.generated.h",
-            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_hudwidget.generated.h"
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_hudwidget.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\inventorymanagement\\components\\inv_inventorycomponent.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_inventorycomponent.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\inventorymanagement\\utils\\inv_inventorystatics.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_inventorystatics.generated.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\source\\mkinventory\\public\\widgets\\hud\\inv_infomessage.h",
+            "c:\\gamedev\\ue5projects\\inventorysystem\\plugins\\mkinventory\\intermediate\\build\\win64\\unrealeditor\\inc\\mkinventory\\uht\\inv_infomessage.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
